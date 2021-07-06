@@ -5,5 +5,15 @@
 提交修改确认
 3、git status
 查看工作区文件状态，是否有被修改，是否添加修改，是否提交修改确认
-4、git log
+4、git diff
+查看没有执行git add命令时，文件的改动
+5、git log
 查看日志，查看追踪文件的版本情况
+6、git log --pretty=oneline
+查看简化版日志
+7、git reset --hard HEAD^
+恢复当前版本的上一个版本，当前版本为HEAD，上一个是HEAD^，上上个是HEAD^^，之前第10个是HEAD~10
+8、git reset --hard 版本号前几位
+恢复到制定版本号的版本
+9、git reflog
+查看历史变动版本编号
